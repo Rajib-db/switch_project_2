@@ -1,0 +1,128 @@
+/******** bottom css ********/
+button:active {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.box_btn {
+    display: inline-block;
+    padding: 2rem 4rem;
+    line-height: 1;
+    font-size: 2rem;
+    font-weight: weight(regular);
+    border-radius: 4.7rem;
+    @include transform_time(background-color .5s ease-out);
+    font-family: $heading_font;
+    text-align: center;
+
+    &.xxl_btn {
+        padding: 2rem 3rem;
+    }
+
+    &.xl_btn {
+        padding: 2.2rem 6rem;
+    }
+
+    &.lg_btn {
+        padding: 2.2rem 7rem;
+    }
+
+    &.md_btn {
+        padding: 1.2rem 2.5rem;
+    }
+
+    &.xs_btn {
+        padding: 1.4rem 2.6rem;
+    }
+
+    &.btn_1 {
+        background: #E60E21;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+        color: #fff;
+
+        &:hover {
+            background: #000AF2;
+            color:#fff;
+        }
+    }
+
+    &.btn_2 {
+        background-color: #E60E21;
+        border: 1px solid #E60E21;
+        color: #fff;
+
+        &:hover {
+            background: #000AF2;
+            border-color: #E9E7F1;
+            color: #fff;
+
+        }
+    }
+
+    &.btn_3 {
+        background-color: #E60E21;
+        border: 1px solid #E60E21;
+        color: #fff;
+
+        &:hover {
+            background-color: #000AF2;
+            border-color: #000AF2;
+            color: #fff;
+        }
+    }
+
+    &.btn_4 {
+        background-color: #E60E21;
+        border: 1px solid #E60E21;
+        color: #fff;
+
+        &:hover {
+            background-color:#000AF2;
+            border-color: #000AF2;
+            color: #fff;
+        }
+    }
+
+    &.btn_5 {
+        border: 1px solid #ddd;
+        color: $white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $heading_font;
+        padding: 17px 40px;
+
+        &:hover {
+            background-color: #000AF2;
+            border-color: #000AF2;
+        }
+    }
+
+    &.base_btn {
+        background-color: #E60E21;
+        border: 2px solid #E60E21;
+        color: #fff;
+
+        &:hover {
+            background-color: #000AF2;
+            border-color: #000AF2;
+            color: #fff;
+        }
+    }
+
+    &.white_btn {
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: #333;
+
+        &:hover {
+            border-color: #5555;
+            color: #fff;
+            background-color: #444;
+        }
+    }
+}

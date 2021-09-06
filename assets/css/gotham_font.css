@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/vendors/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('/vendors/fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/vendors/fonts/Gotham-Book.woff2') format('woff2'),
+        url('/vendors/fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/vendors/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('/vendors/fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/vendors/fonts/Graphik-Bold.woff2') format('woff2'),
+        url('/vendors/fonts/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/vendors/fonts/Graphik-Medium.woff2') format('woff2'),
+        url('/vendors/fonts/Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/vendors/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('/vendors/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/vendors/fonts/Graphik-Semibold.woff2') format('woff2'),
+        url('/vendors/fonts/Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
