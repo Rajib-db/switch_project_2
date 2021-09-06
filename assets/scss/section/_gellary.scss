@@ -1,0 +1,56 @@
+/* gellary css */
+.pt-134{
+    padding-top: 134px;
+}
+.pb-200{
+    padding-bottom: 200px;
+}
+.sw_grallary_shape {
+    left: 0;
+    bottom: -1px;
+}
+.sw_gellary_slider{
+    position: relative;
+    z-index: 1;
+    margin-right: -40%;
+    .gl_title{
+        color: $white;
+        font-weight: weight(semi-bold);
+        margin-bottom: 50px;
+    }
+    .swiper-slide{
+        .gellary_item{
+            border-radius: 7px;
+            img{
+                border-radius: 7px;
+            }
+        }
+
+    }
+
+    .button_next,
+    .button_prev{
+        position: absolute;
+        transition: .3s ease-in-out;
+        z-index: 3;
+        &:hover{
+            svg{
+                width: 51px;
+                height: 25px;
+                .f_color{
+                    fill: #F1614D;
+                }
+            }
+        }
+    }
+    .button_next{
+        top: 4%;
+        left: 68.5%;
+    }
+    .button_prev{
+        top: 4%;
+        right: 32.5%;
+    }
+}
+    
+        

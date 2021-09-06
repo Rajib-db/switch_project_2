@@ -1,0 +1,43 @@
+.pb-140{
+    padding-bottom: 140px;
+}
+.sw_support_thumb{
+    margin-left: -195px;
+    padding-right: 30px;
+}
+.sw_content_wrap{
+    .title{
+        text-transform: capitalize;
+        margin-bottom: 18px;
+        font-weight: weight(semi-bold);
+    }
+    .desc{
+        margin-bottom: 40px;
+    }
+}
+.support_item{
+    &:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .sup_email,
+    .sup_ticket{
+        width: 65px;
+        height: 65px;
+        border-radius: 65%;
+        line-height: 65px;
+        background: $greeny_blue;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .sup_ticket{
+        background: $bean_red;
+    }
+    .sup_content{
+        flex-basis: 0;
+        .s-title{
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            font-weight: weight(bold);
+        }
+    }
+}

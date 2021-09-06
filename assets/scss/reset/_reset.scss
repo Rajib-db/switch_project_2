@@ -1,5 +1,5 @@
 /* common css start */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 *,
 *::before,
@@ -62,7 +62,7 @@ h5,
 h6 {
     color: $heading_color;
     font-family: $heading_font;
-    font-weight: weight(extra-bold);
+    font-weight: weight(semi-bold);
     margin-top: 0;
     line-height: 1.5;
     transition: all 0.3s ease-out 0s;

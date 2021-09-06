@@ -48,7 +48,7 @@
         })
     })
 
-    $(".swiper-container").each(function () {
+    $(".g_slider_active").each(function () {
         var t = $(this),
             i = ($(this).attr("id"), $(this).data("perpage") || 1),
             a = $(this).data("loop"),
