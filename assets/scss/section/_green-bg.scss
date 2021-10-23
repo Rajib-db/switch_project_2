@@ -1,0 +1,45 @@
+.sw_green_shape-1{
+    top: -1px;
+}
+.sw_green_shape-2{
+    bottom: -1px;
+}
+.sw_green_thumb{
+    position: relative;
+    z-index: 3;
+    margin-top: -63px;
+    margin-left: -75px;
+    &.sw_green_two{
+        margin: 0 -137px -56px 0;
+    }
+    .dot_animantio-2{
+        position: absolute;
+        top: 375px;
+        left: 27px;
+        z-index: -1;
+    }
+    .dot-animation-3{
+        position: absolute;
+        top: 189px;
+        right: -9px;
+        z-index: -1;
+    }
+}
+.sw_green_content{
+    max-width: 570px;
+    &.green_left{
+        margin-left: 208px;
+    }
+    .title{
+        font-weight: weight(bold);
+        text-transform: capitalize;
+        color: $white;
+        margin-bottom: 16px;
+    }
+    .desc{
+        font-size: 16px;
+        color: $white;
+        margin-bottom: 16px;
+    }
+
+}

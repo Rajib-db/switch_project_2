@@ -76,7 +76,7 @@ h1 {
 
 h2 {
     font-size: $h2_font_size;
-    font-weight: weight(medium);
+    font-weight: weight(semi-bold);
     line-height: $h2_line_height;
 }
 
@@ -162,14 +162,32 @@ button:focus,
 }
 
 // section title
-.section_title {
-    margin-bottom: 3rem;
-
-    .s_title {
-        letter-spacing: 0.1rem;
+.sw_sec_title{
+    position: relative;
+    z-index: 2;
+    .title{
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        &.text_green{
+            color: $greeny_blue;
+        }
+    }
+    .text{
+        color: $text_color;
+        font-size: 18px;
+        font-weight: weight(regular);
+        &.text_two{
+            font-size: 24px;
+            font-weight: weight(semi-bold);
+        }
+        &.m_t-50 {
+            margin-top: 50px;
+        }
+        &.m_l-10{
+            margin-left: 10px;
+        }
     }
 }
-
 // Animation
 @keyframes UpdownMoving {
     0% {

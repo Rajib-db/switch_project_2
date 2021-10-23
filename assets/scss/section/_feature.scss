@@ -1,0 +1,22 @@
+.py-170{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.sw_feature_area{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.49343487394957986) 0%, rgba(255,255,255,1) 50%, rgba(242,231,215,1) 100%);
+}
+
+.sw_f_shape{
+    top: -1px;
+    left: 0;
+}
+
+.sw_f_item{
+    .title{
+        color: $bean_red;
+        text-transform: capitalize;
+        font-weight: weight(semi-bold);
+        margin-bottom: 30px;
+    }
+}
